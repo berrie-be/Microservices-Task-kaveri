@@ -33,6 +33,7 @@ docker-compose up -d --build
 
 #### Once all the images are created and containers are created, check the container status
 docker ps - for checking container status
+![alt text](image-16.png)
 
 ### Check the services are healthy or not
 ### User-service (Port - 3000)
