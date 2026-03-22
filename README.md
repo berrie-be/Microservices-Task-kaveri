@@ -111,3 +111,36 @@ Now check all the endpoints
     ![alt text](image-14.png)
 ---
 
+
+# Skill Test 2 Steps
+
+### Push the docker images to the dockerhub
+![alt text](image-17.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+### Create deployment file and service files for the services
+You can check the files in the deployment and services folder
+
+### Install Minikube and start it using the below commands
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+![alt text](image-24.png)
+
+### Now apply the deployment and services file using the below command
+kubectl apply -f filename
+
+Once done verify pods and services like below
+![alt text](image-25.png)
+
+Once you have verified everything is running properly, please check all the endpoints of the services if it is working on it.
+
+Go to the cluster first using below command
+kubectl run debug --rm -it --image=curlimages/curl -- sh
+
+now check the endpoints with /health
+![alt text](image-26.png)
