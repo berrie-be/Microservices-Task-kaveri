@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: gateway-service-deployment
-          image: kaveri21/microservices:gateway_service
+          image: kaveri21/microservices:gateway_service_01
           ports:
             - containerPort: 3003
           resources:

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: product-service-deployment
-          image: kaveri21/microservices:product_service
+          image: kaveri21/microservices:product_service_01
           ports:
             - containerPort: 3001
           resources:

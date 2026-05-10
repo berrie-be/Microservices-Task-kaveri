@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: user-service-deployment
-          image: kaveri21/microservices:user_service
+          image: kaveri21/microservices:user_service_01
           ports:
             - containerPort: 3000
           resources:

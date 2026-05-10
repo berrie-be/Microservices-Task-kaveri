@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service-deployment
-          image: kaveri21/microservices:order_service
+          image: kaveri21/microservices:order_service_01
           ports:
             - containerPort: 3002
           resources:
